@@ -24,19 +24,19 @@ Options:
 IN CASE:
 If one wishes to update the database:
 1.	Please create a txt file that contains gene names in the following order “1-Approved symbol 2-Previous symbols 3-Synonyms 4-NCBI Gene ID(supplied by NCBI) 5-Ensembl ID(supplied by Ensembl) “. Gene names in the file must be separated by a tab(\t). 
-  
-  a.	The file can be downloaded from HUGO: https://www.genenames.org/download/custom/
- 
-  b.	The file can be modified manually, however, this can damage the file. Please be careful modifying the file.
+
+a.	The file can be downloaded from HUGO: https://www.genenames.org/download/custom/
+
+b.	The file can be modified manually, however, this can damage the file. Please be careful modifying the file.
 
 2.	Please run 3.py and 4.py in the folder.
-  
-  a.	1.py and 2.py are backup files. Please do not change them.
-  
-  b.	file.csv in the folder must be deleted. 
+
+a.	1.py and 2.py are backup files. Please do not change them.
+
+b.	file.csv in the folder must be deleted. 
 
 3.	Please start the application.
-  
-  a.	App.py uses the sqlite3 database whereas app_test.py uses a dictionary. App.py is more convenient yet much slower. 
+
+a.	App.py uses the sqlite3 database whereas app_test.py uses a dictionary. App.py is more convenient yet much slower. 
 
 Developer: Gün Kaynar, September 2019, @Ciceklab, Bilkent University.
